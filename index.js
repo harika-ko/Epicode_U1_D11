@@ -11,3 +11,11 @@ function bgColor() {
     let bodyNode = document.getElementById("body")
     bodyNode.classList.add("pink")
 }
+
+//EX9: Write a function to change the footer address with a fake one
+
+function changeFooter() {
+    let footerNode = document.getElementById("footerid")
+    footerNode.innerHTML = "Sedanstrasse 21A, Wuerzburg, Germany"
+}
+
