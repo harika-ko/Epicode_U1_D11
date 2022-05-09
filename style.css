@@ -21,3 +21,7 @@ footer {
 .cssclass {
     color: greenyellow;
 }
+
+.cssvisibility {
+    visibility: hidden;
+}

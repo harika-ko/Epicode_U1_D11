@@ -27,3 +27,12 @@ function addClass() {
         linkNode[i].classList.add("cssclass")
     }
 }
+
+//EX11: Write a function to toggle a CSS class for all the images in the table; that class should set the visibility of the image
+
+function toggleCSSClass() {
+    let imagesNode = document.getElementsByTagName("img")
+    for (i = 0; i < imagesNode.length; i++) {
+        imagesNode[i].classList.toggle("cssvisibility")
+    }
+}
