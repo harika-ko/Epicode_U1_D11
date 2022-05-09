@@ -5,3 +5,9 @@ function changeH1() {
     h1Node.innerText = "Hello! I am the new Heading"
 }
 
+//EX8: Write a function to change the page background color
+
+function bgColor() {
+    let bodyNode = document.getElementById("body")
+    bodyNode.classList.add("pink")
+}
