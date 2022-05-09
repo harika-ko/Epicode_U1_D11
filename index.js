@@ -19,3 +19,11 @@ function changeFooter() {
     footerNode.innerHTML = "Sedanstrasse 21A, Wuerzburg, Germany"
 }
 
+//EX10: Write a function to add a CSS class to every Amazon link
+
+function addClass() {
+    let linkNode = document.getElementsByTagName("a")
+    for (let i = 0; i < linkNode.length; i++) {
+        linkNode[i].classList.add("cssclass")
+    }
+}
