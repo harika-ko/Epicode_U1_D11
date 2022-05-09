@@ -36,3 +36,15 @@ function toggleCSSClass() {
         imagesNode[i].classList.toggle("cssvisibility")
     }
 }
+
+//EX12: Write a function to color the price of the products in a different one every time it’s invoked
+
+function colorPrice() {
+    let priceNode = document.getElementsByClassName("price")
+    for (i = 0; i < priceNode.length; i++) {
+        const red = Math.round(Math.random() * 255);
+        const green = Math.round(Math.random() * 255);
+        const blue = Math.round(Math.random() * 255);
+        priceNode[i].style.color = "rgb(" + red + ", " + green + ", " + blue + ")";
+    }
+}
