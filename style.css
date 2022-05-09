@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 100px;
+}
+
+footer {
+    text-align: center;
+}
